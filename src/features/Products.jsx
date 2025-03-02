@@ -51,8 +51,8 @@ const Products = () => {
   
   return (
     <>
-      <main className="">
-        <div className=" md:grid grid-cols-3 ">
+      <main className="container mx-auto">
+      <div className="md:grid md:grid-cols-3 md:gap-y-[54px] md:gap-x-[34px] ">
           {perfumes.map((perfume) => {
             return (
               <div key={perfume.id} className="card bg-base-100 w-[300px] md:w-[256.62px] md:h-[415.55px] border-[1.14px] border-[#F3F2FB] rounded-[4.56px] shadow-sm  ">

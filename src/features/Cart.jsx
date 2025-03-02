@@ -89,7 +89,7 @@ import cross from "../assets/Group2.png";
 const Cart = () => {
   return (
     <>
-      <div className=" container mx-5">
+      <div className=" container my-9">
         <div className=" w-hug[348px]  mx-auto">
           <img className="w-45" src={cartPreview} alt="cart-preview" />
           <br />
@@ -120,7 +120,7 @@ const Cart = () => {
             <div className="modal-box w-8/12 max-w-xl">
               <div className="flex justify-between">
                 <img src={successIcon} alt="icon" />
-                <img className="w-10 h-7" src={cross} alt="cross-icon" />
+                <img className="w-10 my-6 h-7" src={cross} alt="cross-icon" />
               </div>
               <h3 className="font-bold text-lg">Order Confirmed</h3>
               <p>We hope you enjoy your order</p>
@@ -133,7 +133,7 @@ const Cart = () => {
               <div className="modal-action">
                 <form method="dialog">
                   {/* if there is a button, it will close the modal */}
-                  <button className="w-130 h-[65px] bg-[#8D34FF] rounded-2xl text-[#F5F5F5] cursor-pointer text-sm ">
+                  <button className="w-47 h-[50px] bg-[#8D34FF] rounded-2xl text-[#F5F5F5] cursor-pointer text-sm ">
                     Start New Order
                   </button>
                 </form>
