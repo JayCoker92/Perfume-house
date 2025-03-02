@@ -12,7 +12,7 @@ const Home = () => {
             
        </section>
 
-       <section className='border'>
+       <section className=''>
         <Cart/>
             
        </section>
